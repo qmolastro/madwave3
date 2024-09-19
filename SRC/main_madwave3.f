@@ -715,7 +715,7 @@ c! the partition.
       implicit none
       include "mpif.h"
       integer :: iloop,jelec,jr2,ir1,iang,ir2,i,icanp,ielec,iangp
-      integer :: nnn,ierr,ir,iom
+      integer :: nnn,ierr,ir,iom,nangplot
       real*8 :: r2,r1
       real*8 :: fun(npun1,nangu), funtot(npun1,nangu)
 

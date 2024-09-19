@@ -79,7 +79,7 @@
 !--------------------------------------------------
       implicit none
       include "mpif.h"
-      integer :: ierror,ir1,ir2,iang
+      integer :: ierror,ir1,ir2,iang,nangplot
       real*8 :: div
 *********************************************************
       namelist /inputgridbase/npun1,rmis1,rfin1,npun1min

@@ -521,7 +521,8 @@
       implicit none
       include "mpif.h"
       double precision ::  vang(npun1,nangu),vangtot(npun1,nangu)
-      integer :: ifile,ie,je,jr2,ir1,ir2,iang,iang_proc,ir,nnn,ierr
+      integer :: ifile,ie,je,jr2,ir1,ir2,iang,iang_proc,ir,nnn,ierr,
+     & nangplot
       double precision :: r1,r2,ctet,angulo
 
       ifile=10
